@@ -1,0 +1,21 @@
+#Change Log
+Team Members: Lancelei and Michael
+Team conventions: Allman notation, markdown for changelog  
+Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+
+## *Version 1.0*
+
+Release Date: Oct 12, 2017
+
+## New Components
+
+- Added Tasks model to work with tasks.csv
+
+## Updated Components
+
+-   models
+    
+-   views
+
+-   config
+    Pre-loads model class
