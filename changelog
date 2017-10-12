@@ -13,9 +13,13 @@ Release Date: Oct 12, 2017
 
 ## Updated Components
 
+-   Controllers
+    Welcome controller added a method to get data from the model and display it in the view
+
 -   models
     
 -   views
+    homepage view added a table and an alert for the remaining tasks
 
 -   config
     Pre-loads model class
