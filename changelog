@@ -17,6 +17,8 @@ Release Date: Oct 12, 2017
 - Added Parsedown library
 - Added jobs.md
 - Added Helpme controller
+- Added itemlist view
+- Added Mtce controller
 
 ## Updated Components
 
@@ -33,4 +35,4 @@ Release Date: Oct 12, 2017
     Pre-loads model class
     Work loads Views class
     Help Wanted loads Helpme class
-    
+    Maintenance loads Mtce class
