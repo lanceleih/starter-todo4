@@ -60,6 +60,7 @@ $autoload['packages'] = array();
 */
 $autoload['libraries'] = array('parser');
 $autoload['libraries'] = array('parser', 'parsedown');
+$autoload['libraries'] = array('parser', 'parsedown','session');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
