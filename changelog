@@ -19,11 +19,13 @@ Release Date: Oct 12, 2017
 - Added Helpme controller
 - Added itemlist view
 - Added Mtce controller
+- Added itemnav view
 
 ## Updated Components
 
 -   Controllers
     Welcome controller added a method to get data from the model and display it in the view
+    Mtce controller modified to show tasks in pages using the Pagination class
 
 -   models
     Added a sort function inside Tasks
