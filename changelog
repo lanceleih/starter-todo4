@@ -1,0 +1,48 @@
+#Change Log
+Team Members: Lancelei and Michael
+Team conventions: Allman notation, markdown for changelog  
+Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+
+## *Version 1.0*
+
+Release Date: Oct 12, 2017
+
+## New Components
+
+- Added Tasks model to work with tasks.csv
+- Added template_secondary view
+- Added by_category view
+- Added by_priority view
+- Added Views controller
+- Added Parsedown library
+- Added jobs.md
+- Added Helpme controller
+- Added itemlist view
+- Added Mtce controller
+- Added itemnav view
+- Added Roles controller
+
+## Updated Components
+
+-   Controllers
+    Welcome controller added a method to get data from the model and display it in the view
+    Mtce controller modified to show tasks in pages using the Pagination class
+    Mtce controller modified the show_page function to show the userrole
+
+-   models
+    Added a sort function inside Tasks
+    
+-   views
+    homepage view added a table and an alert for the remaining tasks
+    template_secondary view shows the tasks side by side instead of on top
+    _menubar view shows dropdown user roles
+
+-   config
+    Pre-loads model class
+    Work loads Views class
+    Help Wanted loads Helpme class
+    Maintenance loads Mtce class
+    Defined two user roles: "Guest" and "Owner"
+    Created save path for the sessions
+    Enable sessions in autoload
+    
