@@ -31,11 +31,10 @@ class Views extends Application {
         foreach ($undone as $task)
             $converted[] = (array) $task;
 
-        $role = $this->session->userdata('userrole');
-        $parms['completer'] = ($role == ROLE_OWNER) ? '/views/complete' : '#';
-        
-        // and then pass them on
+	    // and then pass them on
         $parms = ['display_tasks' => $converted];
+        $role = $this->session->userdata('userrole');
+        $parms['completer'] = ($role == ROLE_OWNER) ? '/views/complete' : '#';                
         return $this->parser->parse('by_priority', $parms, true);
     }
 
