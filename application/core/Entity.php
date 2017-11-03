@@ -12,6 +12,9 @@
  * @author Lancelei
  */
 class Entity extends CI_Model {
+// Task Properties:
+// id,task,priority,size,group,deadline,status,flag
+
 
     // If this class has a setProp method, use it, else modify the property directly
     public function __set($key, $value) {
@@ -30,4 +33,20 @@ class Entity extends CI_Model {
         $this->$key = $value;
         return $this;
     }
+    
+    public function __get($property){
+        echo 'This:';
+        var_dump($this);
+        var_dump($this->$property);
+        
+        $method = 'get' . str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', $property)));
+        if (method_exists($this, $method))
+        {
+                return $this->$method();
+        }
+        
+    }
+    
+    
+
 }

@@ -36,6 +36,9 @@ Release Date: Nov 5, 2017
 
 -   models
     Added a sort function inside Tasks
+    Moved TaskTest into tests folder
+    Added setters and getters to properties for Task
+    Added validation inside Task setters
     
 -   views
     homepage view added a table and an alert for the remaining tasks
@@ -51,3 +54,11 @@ Release Date: Nov 5, 2017
     Created save path for the sessions
     Enable sessions in autoload
     
+-   Tests
+    Added TaskTest
+    Added a magic functions set and get into TaskTest
+
+-   core
+    Added Entity
+    Added magic function set into Entity
+
