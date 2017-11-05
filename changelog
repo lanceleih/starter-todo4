@@ -53,6 +53,7 @@ Release Date: Nov 5, 2017
     Defined two user roles: "Guest" and "Owner"
     Created save path for the sessions
     Enable sessions in autoload
+    Added travis-ci
     
 -   Tests
     Added TaskTest
