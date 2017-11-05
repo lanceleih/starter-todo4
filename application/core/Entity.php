@@ -35,9 +35,6 @@ class Entity extends CI_Model {
     }
     
     public function __get($property){
-        echo 'This:';
-        var_dump($this);
-        var_dump($this->$property);
         
         $method = 'get' . str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', $property)));
         if (method_exists($this, $method))
