@@ -1,16 +1,13 @@
 <?php
 
-if (! class_exists('PHPUnit_Framework_TestCase'))
-{
-    class_alias('PHPUnit\Framework\TestCase', 'PHPUnit_Framework_TestCase');
-}
+use PHPUnit\Framework\TestCase;
 
 /**
  * Description of TaskListTest
  *
  * @author Michael
  */
-class TaskListTest extends TestCase{
+class TaskListTest extends TestCase {
     private $CI;
     
     public function setUp() {

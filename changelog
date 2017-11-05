@@ -58,6 +58,8 @@ Release Date: Nov 5, 2017
 -   Tests
     Added TaskTest
     Added a magic functions set and get into TaskTest
+    Added TaskListTest
+    Modified TaskListTest to use Test Case
 
 -   core
     Added Entity
