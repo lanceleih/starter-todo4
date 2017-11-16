@@ -1,15 +1,16 @@
 <?php
-
-use PHPUnit\Framework\TestCase;
-
-//use PHPUnit\Framework\TestCase;
+require_once 'PHPUnit/Autoload.php';
+if (! class_exists('PHPUnit_Framework_TestCase'))
+{
+    class_alias('PHPUnit\Framework\TestCase', 'PHPUnit_Framework_TestCase');
+}
 
 /**
  * Description of TaskListTest
  *
  * @author Michael
  */
-class TaskListTest extends TestCase {
+class TaskListTest extends PHPUnit_Framework_TestCase {
     private $CI;
     
     public function setUp() {
