@@ -26,6 +26,7 @@ Release Date: Nov 5, 2017
 - Added Bootstrap.php for tests
 - Added phpunit.xml.dist
 - Added TaskTest class
+- Added TaskListTest class
 
 ## Updated Components
 
