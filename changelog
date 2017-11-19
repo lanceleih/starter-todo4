@@ -77,3 +77,5 @@ Release Date: Nov 5, 2017
     - models/App.php: makes sure that the values taken are integers
     - models/Tasks.php: Uses XML_Model instead of CSV_Model
     - tasks.xml: ID's written as an object
+    - tasks.xml: renamed objects
+    - core/XML_Model.php: Load function is working properly now
